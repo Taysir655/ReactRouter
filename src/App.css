@@ -1,0 +1,133 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h2 {
+  font-size: 28px;
+  color: #a68a6d;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #a68a6d;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8c6b51;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h3 {
+  font-size: 20px;
+  color: #a68a6d;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flexo {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.flexb {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.moviecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cardtext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.cardtexto {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #333;
+}
+
+.poor {
+  color: #d63031;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.mine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 24px;
+}
+
+.card {
+  width: 18rem;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.editstyle {
+  width: 35px;
+  margin-bottom: 10px;
+}
+
+.sizetext {
+  color: #a68a6d;
+  text-decoration-line: none;
+  font-size: 32px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 10px 0px 10px 0; /* Center the text horizontally */
+}
